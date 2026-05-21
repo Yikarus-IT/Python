@@ -1,27 +1,28 @@
 # Exercise 1:
-# Change these values to describe yourself.
-name = "Luis Fernando Rodriguez"
-city = "León, Guanajuato, México"
-favorite_language = "PHP, but I also like Python"
+# Create three variables that describe yourself:
+# - name
+# - city
+# - favorite_language
+#
+# Then print each variable.
 
-print(name)
-print(city)
-print(favorite_language)
 
 # Exercise 2:
-# Create a variable called goal and store a short sentence in it.
-# Then print it.
-goal = "I want to become a better software engineer and learn more modern languages"
-print(goal)
+# Create a variable called goal.
+# Store a short sentence in it that describes why you want to learn Python.
+#
+# Then print goal.
+
 
 # Exercise 3:
-# The variables below describe a future admin panel.
-# Change the values, then run this file again.
-project_name = "Admin Panel"
-number_of_users = 17
-has_login = False
-
-print(f"Project: {project_name}")
-print(f"Users: {number_of_users}")
-print(f"Needs login: {has_login}")
+# Create three variables that describe a future admin panel:
+# - project_name
+# - number_of_users
+# - has_login
+#
+# Use a string for project_name.
+# Use an integer for number_of_users.
+# Use a boolean for has_login.
+#
+# Then print each value.
 
