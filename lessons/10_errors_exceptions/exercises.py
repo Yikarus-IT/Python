@@ -87,7 +87,13 @@ def parse_quantity(raw_quantity):
         return None
 
 result = parse_quantity("10")
-print(result)
+if result is None:
+    print("Invalid quantity")
+else:
+    print(result)
 
 result = parse_quantity("abc")
-print(result)
+if result is None:
+    print("Invalid quantity")
+else:
+    print(result)
